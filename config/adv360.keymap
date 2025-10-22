@@ -66,11 +66,11 @@
         Nav {
             display-name = "Kp";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3     &kp N4     &kp N5    &trans                                                   &none      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB    &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &kp T     &none                                                    &none      &kp Y   &kp END     &kp PG_UP     &kp PAGE_DOWN  &kp DEL          &kp BSLH
-&kp ESC    &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &kp HOME  &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp K_UNDO  &kp K_REDO    &kp K_COPY     &kp K_PASTE      &kp SQT
-&kp LSHFT  &kp TAB    &kp ESC   &kp K_CUT  &kp V      &kp B                          &kp HOME      &kp PG_UP                        &kp N   &kp INS     &kp K_SELECT  &kp KP_N3      &kp KP_ENTER     &kp RSHFT
-&none      &kp GRAVE  &kp CAPS  &kp LEFT   &kp RIGHT            &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0          &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &none
+&kp EQUAL  &kp N1     &kp N2    &kp N3     &kp N4     &kp N5    &trans                                                         &bootloader  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+&kp TAB    &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &kp T     &none                                                          &none        &kp Y   &kp END     &kp PG_UP     &kp PAGE_DOWN  &kp DEL          &kp BSLH
+&kp ESC    &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &kp HOME  &bootloader  &rgb_ug_L3  &rgb_ug_L2      &kp LGUI   &kp RCTRL  &none        &kp H   &kp K_UNDO  &kp K_REDO    &kp K_COPY     &kp K_PASTE      &kp SQT
+&kp LSHFT  &kp TAB    &kp ESC   &kp K_CUT  &kp V      &kp B                              &rgb_ug_L1      &kp PG_UP                          &kp N   &kp INS     &kp K_SELECT  &kp KP_N3      &kp KP_ENTER     &kp RSHFT
+&none      &kp GRAVE  &kp CAPS  &kp LEFT   &kp RIGHT            &kp BSPC     &kp DEL     &rgb_ug_L0      &kp PG_DN  &kp ENTER  &kp KP_N0            &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &none
             >;
 
             label = "Nav";
@@ -79,11 +79,11 @@
         Sym {
             display-name = "Kp";
             bindings = <
-&kp EQUAL  &kp N1           &kp N2         &kp N3     &kp N4             &kp N5         &trans                                                   &none      &kp N6          &kp KP_NUM       &kp KP_EQUAL      &kp KP_DIVIDE         &kp KP_MULTIPLY        &kp MINUS
-&kp TAB    &kp EXCLAMATION  &kp AT_SIGN    &kp HASH   &kp DOLLAR         &kp PERCENT    &none                                                    &none      &kp CARET       &kp AMPERSAND    &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSLH
-&kp ESC    &kp UNDERSCORE   &kp PLUS       &kp EQUAL  &kp MINUS          &kp TILDE      &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp PIPE               &kp SQT
-&kp LSHFT  &kp GRAVE        &kp BACKSLASH  &kp SQT    &kp DOUBLE_QUOTES  &kp SEMICOLON                       &kp HOME      &kp PG_UP                        &kp COLON       &kp LESS_THAN    &kp GREATER_THAN  &kp QUESTION          &kp SLASH              &kp RSHFT
-&none      &kp GRAVE        &kp CAPS       &kp LEFT   &kp RIGHT                         &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0                  &kp UP           &kp DOWN          &kp KP_DOT            &kp RBKT               &none
+&kp EQUAL  &kp N1           &kp N2         &kp N3     &kp N4             &kp N5         &trans                                                      &none      &kp N6          &kp KP_NUM       &kp KP_EQUAL      &kp KP_DIVIDE         &kp KP_MULTIPLY        &kp MINUS
+&kp TAB    &kp EXCLAMATION  &kp AT_SIGN    &kp HASH   &kp DOLLAR         &kp PERCENT    &none                                                       &none      &kp CARET       &kp AMPERSAND    &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSLH
+&kp ESC    &kp UNDERSCORE   &kp PLUS       &kp EQUAL  &kp MINUS          &kp TILDE      &none     &rgb_ug_L3  &rgb_ug_L2      &kp LGUI   &kp RCTRL  &none      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp PIPE               &kp SQT
+&kp LSHFT  &kp GRAVE        &kp BACKSLASH  &kp SQT    &kp DOUBLE_QUOTES  &kp SEMICOLON                        &rgb_ug_L1      &kp PG_UP                        &kp COLON       &kp LESS_THAN    &kp GREATER_THAN  &kp QUESTION          &kp SLASH              &kp RSHFT
+&none      &kp GRAVE        &kp CAPS       &kp LEFT   &kp RIGHT                         &kp BSPC  &kp DEL     &rgb_ug_L0      &kp PG_DN  &kp ENTER  &kp KP_N0                  &kp UP           &kp DOWN          &kp KP_DOT            &kp RBKT               &none
             >;
 
             label = "Sym";
@@ -92,11 +92,11 @@
         Num {
             display-name = "Kp";
             bindings = <
-&kp EQUAL  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5  &trans                                                   &none      &kp N6        &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB    &kp LS(F1)    &kp F2        &kp F3        &kp F4        &kp F5  &none                                                    &none      &kp F6        &kp F7      &kp F8        &kp F9         &kp F10          &kp BSLH
-&kp ESC    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp NUMBER_6  &kp N7      &kp N8        &kp NUMBER_9   &kp NUMBER_0     &kp SQT
-&kp LSHFT  &kp F11       &kp F12       &kp K_CUT     &kp V         &kp B                        &kp HOME      &kp PG_UP                        &kp N         &kp INS     &kp K_SELECT  &kp KP_N3      &kp KP_ENTER     &kp RSHFT
-&none      &kp GRAVE     &kp CAPS      &kp LEFT      &kp RIGHT             &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0                &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &none
+&kp EQUAL  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5  &trans                                                      &none      &kp N6        &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+&kp TAB    &kp LS(F1)    &kp F2        &kp F3        &kp F4        &kp F5  &none                                                       &none      &kp F6        &kp F7      &kp F8        &kp F9         &kp F10          &kp BSLH
+&kp ESC    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &none     &rgb_ug_L3  &rgb_ug_L2      &kp LGUI   &kp RCTRL  &none      &kp NUMBER_6  &kp N7      &kp N8        &kp NUMBER_9   &kp NUMBER_0     &kp SQT
+&kp LSHFT  &kp F11       &kp F12       &kp K_CUT     &kp V         &kp B                         &rgb_ug_L1      &kp PG_UP                        &kp N         &kp INS     &kp K_SELECT  &kp KP_N3      &kp KP_ENTER     &kp RSHFT
+&none      &kp GRAVE     &kp CAPS      &kp LEFT      &kp RIGHT             &kp BSPC  &kp DEL     &rgb_ug_L0      &kp PG_DN  &kp ENTER  &kp KP_N0                &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &none
             >;
 
             label = "Num";
