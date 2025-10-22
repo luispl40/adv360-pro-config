@@ -23,28 +23,28 @@
         rgb_ug_L0: rgb_ug_L0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(97,100,25) &tog 0>;
+            bindings = <&rgb_ug RGB_COLOR_HSB(97,100,25) &to 0>;
             label = "RGB_UG_L0";
         };
 
         rgb_ug_L1: rgb_ug_L1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(241,34,57) &tog 1>;
+            bindings = <&rgb_ug RGB_COLOR_HSB(241,34,57) &to 1>;
             label = "RGB_UG_L1";
         };
 
         rgb_ug_L2: rgb_ug_L2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(36,88,43) &tog 2>;
+            bindings = <&rgb_ug RGB_COLOR_HSB(36,88,43) &to 2>;
             label = "RGB_UG_L2";
         };
 
         rgb_ug_L3: rgb_ug_L3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(0,88,43) &tog 3>;
+            bindings = <&rgb_ug RGB_COLOR_HSB(0,88,43) &to 3>;
             label = "RGB_UG_L3";
         };
     };
